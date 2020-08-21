@@ -1,0 +1,221 @@
+body{
+    font-family: Montserrat;
+    margin:0;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 0em;
+    margin: 0em;
+    justify-content: space-evenly;
+    width: 28cm;
+}
+
+.header div{
+    margin-top:0.8cm;
+}
+
+#link{
+    margin-top:1cm;
+    text-decoration: none;
+    font-weight: 600;
+    color:#4ECDC4;
+    transition: 0.5s;
+}
+
+#link:nth-child(1){
+    margin-top:1cm;
+    text-decoration: none;
+    font-weight: 600;
+    color:#4ECDC4;
+    transition: 0.5s;
+}
+
+#link:nth-child(2){
+    margin-top:1cm;
+    text-decoration: none;
+    font-weight: 600;
+    color:#FF6B6B;
+    transition: 0.5s;
+}
+
+#link:nth-child(3){
+    margin-top:1cm;
+    text-decoration: none;
+    font-weight: 600;
+    color:#F5CC00;
+    transition: 0.5s;
+}
+
+#link:hover{
+    color:#0b4e47  ;
+}
+
+
+.header div h1{
+    margin: 0em;
+    font-size: 40px;
+   
+}
+.header div p{
+    margin: 0em;
+    margin-left: 1.2em;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#myPic{
+    position: absolute;
+    margin-left:27.2cm;
+    z-index: -1;
+    width:414px;
+    height: 820px;
+}
+.main{
+    display: flex;
+}
+
+.Hi{
+    display: flex;
+    margin-top: 3em;
+}
+
+.Hi h1{
+    position: relative;
+    z-index: 3;
+    font-size:150px;
+    margin-left: 3.6cm;
+    margin-top: 2cm;
+}
+
+#behind{
+    position: absolute;
+    z-index: 2;
+    width:200px;
+    height:200px;
+    margin-left: 6.5cm;
+    
+}
+
+#bottom{
+    position: absolute;
+    z-index:1;
+    width:400px;
+    margin-top: 5.5cm;
+    margin-left: 2.25cm;
+}
+
+.Hi p{
+    font-size:45px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 6.4cm;
+    margin-left: 3.7cm;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+#hiGIF{
+    position: absolute;
+    z-index:-2;
+    width:510px;
+    margin-left: 2cm;
+    margin-top:7.7cm;
+}
+
+.aboutOrigami{
+    margin-top: 8cm;
+    background-color: #4ECDC4;
+    display: flex;
+    margin-bottom:0;
+    padding: 0;
+}
+
+.aboutOrigami h1{
+    font-size:80px ;
+    text-transform: uppercase;
+    margin-bottom:0;
+    padding: 0;
+}
+
+.aboutOrigami div{
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom:0;
+    padding: 0;
+}
+
+.aboutOrigami p{
+    font-size:30px ;
+    margin-bottom:0;
+    font-weight: 200;
+}
+
+.tutorial{
+    background: #FF6B6B;
+    margin-top: 0;
+}
+.tutorial h1{
+    text-align: center;
+    padding-top: 0.8cm;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #FFE66D;
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10cm;
+}
+.img1{
+    background-image:url("BIRDS.png");
+    width:300px;
+    height: 300px;
+    border-radius:1cm ;
+}
+
+.img p{
+  color: #fff;
+  
+}
+
+.img2{
+    background-image:url("BOATS.png");
+    width:300px;
+    height: 300px;
+    border-radius:1cm ;
+}
+.img3{
+    background-image:url("HEARTS.png");
+    width:300px;
+    height: 300px;
+    border-radius:1cm ;
+}
+.img4{
+    background-image:url("PLANES.png");
+    width:300px;
+    height: 300px;
+    border-radius:1cm ;
+}
+
+.image img{
+    width:300px;
+    height:300px;
+    justify-content: space-evenly;
+    border-radius: 1cm;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+.image img:hover{
+    filter:blur(3px);
+    opacity: 0;
+    background:#4ECDC4 ;
+}
+
+
+
+
